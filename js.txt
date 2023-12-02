@@ -1,0 +1,39 @@
+Introduction:
+	JavaScript is a versatile and widely-used programming language that relies heavily on objects. In JavaScript, everything is an object or can be treated as an object, making it a fundamental concept to grasp for any developer. In this blog, we'll dive into the world of objects in JavaScript, exploring their internal representation, properties, and the dynamic nature that makes them so powerful. Objects is like a container that holds different property. Object store their element as a key-value pairs, each key value pair is termed as property.
+What are Objects?
+Definition: Objects are fundamental data structures in JavaScript.
+	Collections of key-value pairs
+
+	Versatile and flexible
+
+	Used for data modelling and organization
+
+	For Eg. If your object is a student, it will have properties like name, age, address.
+Code example:
+ 
+	
+
+
+
+
+Internal Representation:
+
+	Objects are implemented as collections of properties.
+
+	Each property has a name (string) and a value (any data type).
+
+	Properties can be data properties or accessor properties (getters and setters).
+
+
+
+Data Properties: 
+
+	Data properties store values directly.
+	Have four attributes:
+
+1.	Value: The property's value.
+2.	Writable: Whether the value can be changed.
+3.	Enumerable: Whether the property can be iterated.
+4.	Configurable: Whether the property can be deleted or its attributes modified.
+Accessing Object Properties:
+	You can access object properties using dot notation or bracket notation:
